@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-nav: true
+nav: false
 nav_order: 1
 subtitle: Research Assistant, Ubiquitous Knowledge Processing Lab, TU Darmstadt
 
