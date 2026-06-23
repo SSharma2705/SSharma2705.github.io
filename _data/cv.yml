@@ -4,220 +4,205 @@ cv:
   email: sharma.shivam2705@gmail.com
   location: Darmstadt, Germany
   website: https://ssharma2705.github.io/
-  summary: Researcher in natural language processing, multimodal verification, misinformation detection, and scientific large language models.
-
+  summary: Researcher in natural language processing, multimodal verification, misinformation
+    detection, and scientific large language models.
   social_networks:
-    - network: Google Scholar
-      username: lQjkdJgAAAAJ
-    - network: LinkedIn
-      username: shivamsharma2705
-    - network: GitHub
-      username: ssharma2705
-
+  - network: Google Scholar
+    username: lQjkdJgAAAAJ
+  - network: LinkedIn
+    username: shivamsharma2705
+  - network: GitHub
+    username: ssharma2705
   sections:
     Education:
-      - institution: New Jersey Institute of Technology
-        location: New Jersey, USA
-        area: Data Science
-        studyType: MSc
-        start_date: 2019-08
-        end_date: 2021-05
-
-      - institution: The LNM Institute of Information Technology
-        location: Rajasthan, India
-        area: Computer and Communication Engineering
-        studyType: BTech
-        start_date: 2015-08
-        end_date: 2019-05
-
+    - institution: New Jersey Institute of Technology
+      location: New Jersey, USA
+      area: Data Science
+      studyType: MSc
+      start_date: 2019-08
+      end_date: 2021-05
+    - institution: The LNM Institute of Information Technology
+      location: Rajasthan, India
+      area: Computer and Communication Engineering
+      studyType: BTech
+      start_date: 2015-08
+      end_date: 2019-05
     Research Experience:
-      - company: Ubiquitous Knowledge Processing (UKP) Lab, TU Darmstadt
-        position: Research Assistant
-        location: Darmstadt, Germany
-        start_date: 2025-03
-        end_date: present
-        highlights:
-          - Developing benchmarks for misinformation detection and multimodal evidence retrieval in long-form videos.
-
-      - company: Pacific Northwest National Laboratory
-        position: Data Scientist
-        location: Washington, USA
-        start_date: 2023-01
-        end_date: 2025-01
-        highlights:
-          - Collaborated on research and development applying large language models to domain-specific scientific and environmental data.
-
-      - company: Pacific Northwest National Laboratory
-        position: Research Associate
-        location: Washington, USA
-        start_date: 2021-10
-        end_date: 2022-12
-        highlights:
-          - Applied natural language processing techniques for data curation and post-processing.
-
-      - company: Pacific Northwest National Laboratory
-        position: Research Intern
-        location: Washington, USA
-        start_date: 2020-09
-        end_date: 2021-05
-        highlights:
-          - Evaluated text generated from large language models to improve detection and categorization of phishing emails.
-
-      - company: New Jersey Institute of Technology
-        position: Research Assistant
-        location: New Jersey, USA
-        start_date: 2019-10
-        end_date: 2020-09
-        highlights:
-          - Led research applying natural language processing and large language models to crisis-related social media posts.
-
-      - company: Indian Institute of Technology
-        position: Research Intern
-        location: Uttarakhand, India
-        start_date: 2017-06
-        end_date: 2017-07
-        highlights:
-          - Contributed to research and application of natural language processing techniques for fake news stance detection.
-
+    - company: Ubiquitous Knowledge Processing (UKP) Lab, TU Darmstadt
+      position: Research Assistant
+      location: Darmstadt, Germany
+      start_date: 2025-03
+      end_date: present
+      highlights:
+      - Developing benchmarks for misinformation detection and multimodal evidence
+        retrieval in long-form videos.
+    - company: Pacific Northwest National Laboratory
+      position: Data Scientist
+      location: Washington, USA
+      start_date: 2023-01
+      end_date: 2025-01
+      highlights:
+      - Collaborated on research and development applying large language models to
+        domain-specific scientific and environmental data.
+    - company: Pacific Northwest National Laboratory
+      position: Research Associate
+      location: Washington, USA
+      start_date: 2021-10
+      end_date: 2022-12
+      highlights:
+      - Applied natural language processing techniques for data curation and post-processing.
+    - company: Pacific Northwest National Laboratory
+      position: Research Intern
+      location: Washington, USA
+      start_date: 2020-09
+      end_date: 2021-05
+      highlights:
+      - Evaluated text generated from large language models to improve detection and
+        categorization of phishing emails.
+    - company: New Jersey Institute of Technology
+      position: Research Assistant
+      location: New Jersey, USA
+      start_date: 2019-10
+      end_date: 2020-09
+      highlights:
+      - Led research applying natural language processing and large language models
+        to crisis-related social media posts.
+    - company: Indian Institute of Technology
+      position: Research Intern
+      location: Uttarakhand, India
+      start_date: 2017-06
+      end_date: 2017-07
+      highlights:
+      - Contributed to research and application of natural language processing techniques
+        for fake news stance detection.
     Publications:
-      - title: "GroundInc: Grounding Inconsistencies for Video Caption Verification"
-        authors:
-          - "**Shivam Sharma**"
-          - Y. Kementchedjhieva
-          - I. Gurevych
-        publisher: Under Review, EMNLP 2026
-        releaseDate: 2026
-
-      - title: Exploring the benefits of domain-pretraining of generative large language models for chemistry
-        authors:
-          - A. Acharya
-          - "**Shivam Sharma**"
-          - R. Cosbey
-          - M. Subramanian
-          - S. Howland
-          - M. Glenski
-        publisher: arXiv
-        releaseDate: 2024
-
-      - title: Benchmarking LLMs for Environmental Review and Permitting
-        authors:
-          - R. Meyur
-          - H. Phan
-          - K. Hayashi
-          - I. Stewart
-          - "**Shivam Sharma**"
-          - S. Chaturvedi
-          - M. Parker
-          - D. Nally
-          - S. Montgomery
-          - K. Pazdernik
-          - A. Jannesari
-          - M. Halappanavar
-          - S. Munikoti
-          - S. Horawalavithana
-          - A. Acharya
-        publisher: arXiv
-        releaseDate: 2024
-
-      - title: "RAG vs. Long Context: Examining Frontier Large Language Models for Environmental Review Document Comprehension"
-        authors:
-          - H. Phan
-          - A. Acharya
-          - S. Chaturvedi
-          - "**Shivam Sharma**"
-          - M. Parker
-          - D. Nally
-          - A. Jannesari
-          - K. Pazdernik
-          - M. Halappanavar
-          - S. Munikoti
-          - S. Horawalavithana
-        publisher: arXiv
-        releaseDate: 2024
-
-      - title: "Foundation models of scientific knowledge for chemistry: Opportunities, challenges and lessons learned"
-        authors:
-          - S. Horawalavithana
-          - E. Ayton
-          - "**Shivam Sharma**"
-          - S. Howland
-          - M. Subramanian
-          - S. Vasquez
-          - R. Cosbey
-          - M. Glenski
-          - S. Volkova
-        publisher: BigScience Workshop
-        releaseDate: 2022
-
-      - title: "Expert: Public benchmarks for dynamic heterogeneous academic graphs"
-        authors:
-          - S. Horawalavithana
-          - E. Ayton
-          - A. Usenko
-          - "**Shivam Sharma**"
-          - J. Eshun
-          - R. Cosbey
-          - M. Glenski
-          - S. Volkova
-        publisher: arXiv
-        releaseDate: 2022
-
-      - title: "Bang for your Buck: Performance Impact Across Choices in Learning Architectures for Crisis Informatics"
-        authors:
-          - "**Shivam Sharma**"
-          - C. Buntain
-        publisher: ISCRAM
-        releaseDate: 2022
-
-      - title: Evaluating and explaining natural language generation with genx
-        authors:
-          - K. Duskin
-          - "**Shivam Sharma**"
-          - J. Y. Yun
-          - E. Saldanha
-          - D. Arendt
-        publisher: DaSH, EMNLP
-        releaseDate: 2022
-
-      - title: An Evaluation of Twitter Datasets from Non-Pandemic Crises Applied to Regional COVID-19 Contexts
-        authors:
-          - "**Shivam Sharma**"
-          - C. Buntain
-        publisher: ISCRAM
-        releaseDate: 2021
-
-      - title: Improving Classification of Crisis-Related Social Media Content via Text Augmentation and Image Analysis
-        authors:
-          - "**Shivam Sharma**"
-          - C. Buntain
-        publisher: TREC-IS
-        releaseDate: 2020
-
-      - title: Combining neural, statistical and external features for fake news stance identification
-        authors:
-          - G. Bhatt
-          - A. Sharma
-          - "**Shivam Sharma**"
-          - A. Nagpal
-          - B. Raman
-          - A. Mittal
-        publisher: MSM, The Web Conference (WWW)
-        releaseDate: 2018
-
+    - title: 'GroundInc: Grounding Inconsistencies for Video Caption Verification'
+      authors:
+      - '**Shivam Sharma**'
+      - Y. Kementchedjhieva
+      - I. Gurevych
+      publisher: Under Review, EMNLP 2026
+      releaseDate: 2026
+    - title: Exploring the benefits of domain-pretraining of generative large language
+        models for chemistry
+      authors:
+      - A. Acharya
+      - '**Shivam Sharma**'
+      - R. Cosbey
+      - M. Subramanian
+      - S. Howland
+      - M. Glenski
+      publisher: arXiv
+      releaseDate: 2024
+    - title: Benchmarking LLMs for Environmental Review and Permitting
+      authors:
+      - R. Meyur
+      - H. Phan
+      - K. Hayashi
+      - I. Stewart
+      - '**Shivam Sharma**'
+      - S. Chaturvedi
+      - M. Parker
+      - D. Nally
+      - S. Montgomery
+      - K. Pazdernik
+      - A. Jannesari
+      - M. Halappanavar
+      - S. Munikoti
+      - S. Horawalavithana
+      - A. Acharya
+      publisher: arXiv
+      releaseDate: 2024
+    - title: 'RAG vs. Long Context: Examining Frontier Large Language Models for Environmental
+        Review Document Comprehension'
+      authors:
+      - H. Phan
+      - A. Acharya
+      - S. Chaturvedi
+      - '**Shivam Sharma**'
+      - M. Parker
+      - D. Nally
+      - A. Jannesari
+      - K. Pazdernik
+      - M. Halappanavar
+      - S. Munikoti
+      - S. Horawalavithana
+      publisher: arXiv
+      releaseDate: 2024
+    - title: 'Foundation models of scientific knowledge for chemistry: Opportunities,
+        challenges and lessons learned'
+      authors:
+      - S. Horawalavithana
+      - E. Ayton
+      - '**Shivam Sharma**'
+      - S. Howland
+      - M. Subramanian
+      - S. Vasquez
+      - R. Cosbey
+      - M. Glenski
+      - S. Volkova
+      publisher: BigScience Workshop
+      releaseDate: 2022
+    - title: 'Expert: Public benchmarks for dynamic heterogeneous academic graphs'
+      authors:
+      - S. Horawalavithana
+      - E. Ayton
+      - A. Usenko
+      - '**Shivam Sharma**'
+      - J. Eshun
+      - R. Cosbey
+      - M. Glenski
+      - S. Volkova
+      publisher: arXiv
+      releaseDate: 2022
+    - title: Evaluating and explaining natural language generation with genx
+      authors:
+      - K. Duskin
+      - '**Shivam Sharma**'
+      - J. Y. Yun
+      - E. Saldanha
+      - D. Arendt
+      publisher: DaSH, EMNLP
+      releaseDate: 2022
+    - title: An Evaluation of Twitter Datasets from Non-Pandemic Crises Applied to
+        Regional COVID-19 Contexts
+      authors:
+      - '**Shivam Sharma**'
+      - C. Buntain
+      publisher: ISCRAM
+      releaseDate: 2021
+    - title: Improving Classification of Crisis-Related Social Media Content via Text
+        Augmentation and Image Analysis
+      authors:
+      - '**Shivam Sharma**'
+      - C. Buntain
+      publisher: TREC-IS
+      releaseDate: 2020
+    - title: Combining neural, statistical and external features for fake news stance
+        identification
+      authors:
+      - G. Bhatt
+      - A. Sharma
+      - '**Shivam Sharma**'
+      - A. Nagpal
+      - B. Raman
+      - A. Mittal
+      publisher: MSM, The Web Conference (WWW)
+      releaseDate: 2018
     Conference and Journal Reviewing:
-      - bullet: Program Committee, ER 2024
-      - bullet: Review Committee, PERTRA Socio-NLP 2024
-      - bullet: Review Committee, IEEE TAI 2023
-      - bullet: Review Committee, Humanities & Social Sciences Communications Journal 2023
-      - bullet: Review Committee, EMNLP 2023
-
+    - bullet: Program Committee, ER 2024
+    - bullet: Review Committee, PERTRA Socio-NLP 2024
+    - bullet: Review Committee, IEEE TAI 2023
+    - bullet: Review Committee, Humanities & Social Sciences Communications Journal
+        2023
+    - bullet: Review Committee, EMNLP 2023
     Invited Talks:
-      - bullet: Lowercarbon AI Hackathon for Clean Energy, 2024
-
+    - bullet: Lowercarbon AI Hackathon for Clean Energy, 2024
     Programming Skills:
-      - label: Languages
-        details: Python, SQL, R
-      - label: Libraries
-        details: Hugging Face Transformers, Hugging Face Accelerate, Hugging Face Datasets, PyTorch
-      - label: Software
-        details: Git, Docker
+    - label: Languages
+      details: Python, SQL, R
+    - label: Libraries
+      details: Hugging Face Transformers, Hugging Face Accelerate, Hugging Face Datasets,
+        PyTorch
+    - label: Software
+      details: Git, Docker

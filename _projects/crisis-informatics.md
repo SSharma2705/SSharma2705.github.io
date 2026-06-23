@@ -10,4 +10,4 @@ related_publications: true
 
 This work applies natural language processing, data augmentation, and multimodal classification to social media data from crisis events, including regional COVID-19 contexts and crisis-related content classification.
 
-Related publications: {% cite sharma2022bang %}, {% cite sharma2021covidcrises %}, {% cite sharma2020trecis %}
+Related publications: {% cite sharma2021covidcrises %}, {% cite sharma2020trecis %}
