@@ -2,6 +2,7 @@
 layout: page
 title: Video Caption Verification
 description: Grounding inconsistencies in long-form videos and captions.
+img: assets/img/publication_preview/groundinc.png
 importance: 1
 category: multimodal
 related_publications: true

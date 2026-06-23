@@ -4,7 +4,7 @@ title: About
 permalink: /
 nav: true
 nav_order: 1
-subtitle: PhD Student, Ubiquitous Knowledge Processing Lab, TU Darmstadt
+subtitle: Research Assistant, Ubiquitous Knowledge Processing Lab, TU Darmstadt
 
 profile:
   align: right
@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student at the [Ubiquitous Knowledge Processing Lab](https://www.ukp.tu-darmstadt.de/) at TU Darmstadt, working on natural language processing, multimodal understanding, and trustworthy AI systems. My current research focuses on video misinformation detection, video caption verification, and multimodal evidence retrieval for long-form videos.
+I am a Research Assistant at the [Ubiquitous Knowledge Processing Lab](https://www.ukp.tu-darmstadt.de/) at TU Darmstadt, working on natural language processing, multimodal understanding, and trustworthy AI systems. My current research focuses on video misinformation detection, video caption verification, and multimodal evidence retrieval for long-form videos.
 
 Before joining TU Darmstadt, I worked at Pacific Northwest National Laboratory on large language models for domain-specific scientific and environmental data. I received an MSc in Data Science from New Jersey Institute of Technology, where my thesis work focused on crisis informatics, and a BTech in Computer and Communication Engineering from The LNM Institute of Information Technology.
 
