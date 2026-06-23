@@ -1,0 +1,8 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+cv_pdf: /assets/pdf/Shivam_Sharma_CV.pdf # path to your CV PDF file
+email: sharma.shivam2705@gmail.com # your email address
+github_username: ssharma2705
+linkedin_username: shivamsharma2705
+scholar_userid: lQjkdJgAAAAJ # your Google Scholar ID
