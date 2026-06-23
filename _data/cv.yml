@@ -1,189 +1,223 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Shivam Sharma
+  label: Research Assistant
+  email: sharma.shivam2705@gmail.com
+  location: Darmstadt, Germany
+  website: https://ssharma2705.github.io/
+  summary: Researcher in natural language processing, multimodal verification, misinformation detection, and scientific large language models.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
+    - network: Google Scholar
+      username: lQjkdJgAAAAJ
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: shivamsharma2705
+    - network: GitHub
+      username: ssharma2705
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: New Jersey Institute of Technology
+        location: New Jersey, USA
+        area: Data Science
+        studyType: MSc
+        start_date: 2019-08
+        end_date: 2021-05
+
+      - institution: The LNM Institute of Information Technology
+        location: Rajasthan, India
+        area: Computer and Communication Engineering
+        studyType: BTech
+        start_date: 2015-08
+        end_date: 2019-05
+
+    Research Experience:
+      - company: Ubiquitous Knowledge Processing (UKP) Lab, TU Darmstadt
+        position: Research Assistant
+        location: Darmstadt, Germany
+        start_date: 2025-03
+        end_date: present
         highlights:
-          - Description 1.
-          - Description 2.
+          - Developing benchmarks for misinformation detection and multimodal evidence retrieval in long-form videos.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - company: Pacific Northwest National Laboratory
+        position: Data Scientist
+        location: Washington, USA
+        start_date: 2023-01
+        end_date: 2025-01
         highlights:
-          - Description 1.
-          - Description 2.
+          - Collaborated on research and development applying large language models to domain-specific scientific and environmental data.
 
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Pacific Northwest National Laboratory
+        position: Research Associate
+        location: Washington, USA
+        start_date: 2021-10
+        end_date: 2022-12
         highlights:
-          - Relativity
-          - Description 2.
+          - Applied natural language processing techniques for data curation and post-processing.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Pacific Northwest National Laboratory
+        position: Research Intern
+        location: Washington, USA
+        start_date: 2020-09
+        end_date: 2021-05
         highlights:
-          - Description 1.
-          - Description 2.
+          - Evaluated text generated from large language models to improve detection and categorization of phishing emails.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: New Jersey Institute of Technology
+        position: Research Assistant
+        location: New Jersey, USA
+        start_date: 2019-10
+        end_date: 2020-09
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Led research applying natural language processing and large language models to crisis-related social media posts.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: Indian Institute of Technology
+        position: Research Intern
+        location: Uttarakhand, India
+        start_date: 2017-06
+        end_date: 2017-07
+        highlights:
+          - Contributed to research and application of natural language processing techniques for fake news stance detection.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "GroundInc: Grounding Inconsistencies for Video Caption Verification"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - "**Shivam Sharma**"
+          - Y. Kementchedjhieva
+          - I. Gurevych
+        publisher: Under Review, EMNLP 2026
+        releaseDate: 2026
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: Exploring the benefits of domain-pretraining of generative large language models for chemistry
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - A. Acharya
+          - "**Shivam Sharma**"
+          - R. Cosbey
+          - M. Subramanian
+          - S. Howland
+          - M. Glenski
+        publisher: arXiv
+        releaseDate: 2024
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: Benchmarking LLMs for Environmental Review and Permitting
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - R. Meyur
+          - H. Phan
+          - K. Hayashi
+          - I. Stewart
+          - "**Shivam Sharma**"
+          - S. Chaturvedi
+          - M. Parker
+          - D. Nally
+          - S. Montgomery
+          - K. Pazdernik
+          - A. Jannesari
+          - M. Halappanavar
+          - S. Munikoti
+          - S. Horawalavithana
+          - A. Acharya
+        publisher: arXiv
+        releaseDate: 2024
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - title: "RAG vs. Long Context: Examining Frontier Large Language Models for Environmental Review Document Comprehension"
+        authors:
+          - H. Phan
+          - A. Acharya
+          - S. Chaturvedi
+          - "**Shivam Sharma**"
+          - M. Parker
+          - D. Nally
+          - A. Jannesari
+          - K. Pazdernik
+          - M. Halappanavar
+          - S. Munikoti
+          - S. Horawalavithana
+        publisher: arXiv
+        releaseDate: 2024
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+      - title: "Foundation models of scientific knowledge for chemistry: Opportunities, challenges and lessons learned"
+        authors:
+          - S. Horawalavithana
+          - E. Ayton
+          - "**Shivam Sharma**"
+          - S. Howland
+          - M. Subramanian
+          - S. Vasquez
+          - R. Cosbey
+          - M. Glenski
+          - S. Volkova
+        publisher: BigScience Workshop
+        releaseDate: 2022
 
-      - name: English
-        summary: "Fluent"
+      - title: "Expert: Public benchmarks for dynamic heterogeneous academic graphs"
+        authors:
+          - S. Horawalavithana
+          - E. Ayton
+          - A. Usenko
+          - "**Shivam Sharma**"
+          - J. Eshun
+          - R. Cosbey
+          - M. Glenski
+          - S. Volkova
+        publisher: arXiv
+        releaseDate: 2022
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - title: "Bang for your Buck: Performance Impact Across Choices in Learning Architectures for Crisis Informatics"
+        authors:
+          - "**Shivam Sharma**"
+          - C. Buntain
+        publisher: ISCRAM
+        releaseDate: 2022
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+      - title: Evaluating and explaining natural language generation with genx
+        authors:
+          - K. Duskin
+          - "**Shivam Sharma**"
+          - J. Y. Yun
+          - E. Saldanha
+          - D. Arendt
+        publisher: DaSH, EMNLP
+        releaseDate: 2022
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+      - title: An Evaluation of Twitter Datasets from Non-Pandemic Crises Applied to Regional COVID-19 Contexts
+        authors:
+          - "**Shivam Sharma**"
+          - C. Buntain
+        publisher: ISCRAM
+        releaseDate: 2021
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - title: Improving Classification of Crisis-Related Social Media Content via Text Augmentation and Image Analysis
+        authors:
+          - "**Shivam Sharma**"
+          - C. Buntain
+        publisher: TREC-IS
+        releaseDate: 2020
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+      - title: Combining neural, statistical and external features for fake news stance identification
+        authors:
+          - G. Bhatt
+          - A. Sharma
+          - "**Shivam Sharma**"
+          - A. Nagpal
+          - B. Raman
+          - A. Mittal
+        publisher: MSM, The Web Conference (WWW)
+        releaseDate: 2018
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Conference and Journal Reviewing:
+      - bullet: Program Committee, ER 2024
+      - bullet: Review Committee, PERTRA Socio-NLP 2024
+      - bullet: Review Committee, IEEE TAI 2023
+      - bullet: Review Committee, Humanities & Social Sciences Communications Journal 2023
+      - bullet: Review Committee, EMNLP 2023
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Invited Talks:
+      - bullet: Lowercarbon AI Hackathon for Clean Energy, 2024
+
+    Programming Skills:
+      - label: Languages
+        details: Python, SQL, R
+      - label: Libraries
+        details: Hugging Face Transformers, Hugging Face Accelerate, Hugging Face Datasets, PyTorch
+      - label: Software
+        details: Git, Docker
