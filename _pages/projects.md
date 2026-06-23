@@ -1,15 +1,16 @@
 ---
 layout: page
-title: projects
+title: Research
 permalink: /projects/
 description: Research themes and selected work.
 nav: true
 nav_order: 3
-display_categories: [multimodal, scientific-nlp, crisis-informatics]
+display_categories:
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
+These pages collect the main research directions that connect my publications and current work.
+
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->

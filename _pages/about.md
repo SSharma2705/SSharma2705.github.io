@@ -1,8 +1,10 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: Research Assistant, Ubiquitous Knowledge Processing Lab, TU Darmstadt
+nav: true
+nav_order: 1
+subtitle: PhD Student, Ubiquitous Knowledge Processing Lab, TU Darmstadt
 
 profile:
   align: right
@@ -25,8 +27,17 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a researcher working on natural language processing, multimodal understanding, and trustworthy AI systems. My current work at the [UKP Lab](https://www.ukp.tu-darmstadt.de/) focuses on misinformation detection and multimodal evidence retrieval for long-form videos.
+I am a PhD student at the [Ubiquitous Knowledge Processing Lab](https://www.ukp.tu-darmstadt.de/) at TU Darmstadt, working on natural language processing, multimodal understanding, and trustworthy AI systems. My current research focuses on video misinformation detection, video caption verification, and multimodal evidence retrieval for long-form videos.
 
-Before joining TU Darmstadt, I worked at Pacific Northwest National Laboratory on large language models for domain-specific scientific and environmental data. I received an MSc in Data Science from New Jersey Institute of Technology and a BTech in Computer and Communication Engineering from The LNM Institute of Information Technology.
+Before joining TU Darmstadt, I worked at Pacific Northwest National Laboratory on large language models for domain-specific scientific and environmental data. I received an MSc in Data Science from New Jersey Institute of Technology, where my thesis work focused on crisis informatics, and a BTech in Computer and Communication Engineering from The LNM Institute of Information Technology.
 
-My research interests include video caption verification, multimodal misinformation detection, scientific NLP, retrieval-augmented language models, and crisis informatics.
+## Research Focus
+
+- **Multimodal misinformation detection:** building benchmarks and methods for verifying claims in long-form videos.
+- **Scientific and environmental NLP:** evaluating large language models for domain-specific scientific and regulatory documents.
+- **Retrieval and long-context modeling:** comparing retrieval-augmented systems with long-context language models for evidence-heavy tasks.
+- **Crisis informatics:** modeling social media and multimodal signals during fast-moving crisis events.
+
+## Current Work
+
+I am currently developing resources for grounding inconsistencies between video captions and visual evidence. A major goal of this work is to make video verification systems more interpretable: not only predicting whether a claim is wrong, but also identifying where the relevant evidence appears and why the inconsistency matters.
