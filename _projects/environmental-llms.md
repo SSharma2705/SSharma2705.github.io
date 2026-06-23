@@ -2,6 +2,7 @@
 layout: page
 title: Environmental Review LLMs
 description: Evaluating long-context and retrieval-augmented models for environmental review.
+img: assets/img/publication_preview/rag_vs_long.png
 importance: 2
 category: scientific-nlp
 related_publications: true

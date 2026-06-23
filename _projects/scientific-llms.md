@@ -2,6 +2,7 @@
 layout: page
 title: Scientific Language Models
 description: Domain pretraining and foundation models for chemistry and scientific knowledge.
+img: assets/img/publication_preview/bigscience_workshop.png
 importance: 3
 category: scientific-nlp
 related_publications: true

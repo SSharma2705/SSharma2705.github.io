@@ -2,6 +2,7 @@
 layout: page
 title: Crisis Informatics
 description: NLP and multimodal learning for crisis-related social media.
+img: assets/img/publication_preview/iit_paper.png
 importance: 4
 category: crisis-informatics
 related_publications: true

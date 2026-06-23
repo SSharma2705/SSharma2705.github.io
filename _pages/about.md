@@ -4,7 +4,12 @@ title: about
 permalink: /
 subtitle: Research Assistant, Ubiquitous Knowledge Processing Lab, TU Darmstadt
 
-profile: false
+profile:
+  align: right
+  image: my_photo.jpg
+  image_circular: true
+  more_info: >
+    <p>Darmstadt, Germany</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
