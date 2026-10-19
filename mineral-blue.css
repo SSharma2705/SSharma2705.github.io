@@ -6,3 +6,4 @@
 .intro{color:#3f4856}.updates-list{scrollbar-color:var(--green) #ebe6dc}.updates-list p,.research-feature>div>p:not(.project-kicker):not(.project-subtitle),.research-feature dd{color:#536071}
 .research-feature,.compact-feature{background:#fffdf9}.research-feature figure,.compact-feature figure{background:#edf0f5}.research-feature-reverse figure,.compact-feature:nth-child(2) figure{background:#e7ebf2}
 .topic-filters button.is-active span{color:#e3e7ee}
+.wordmark{font-family:var(--serif);font-size:26px;font-weight:600;letter-spacing:-.02em}
