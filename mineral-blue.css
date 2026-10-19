@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Literata:opsz,wght@7..72,400;7..72,500;7..72,600&family=Manrope:wght@400;500;600;700&display=swap');
+
+/* Paper & indigo: a warm editorial paper ground with restrained indigo accents. */
+:root{--ink:#1f2733;--muted:#657080;--paper:#f8f5ef;--line:#d8d3ca;--green:#344f8b;--lime:#e3e7ee;--sand:#ece8df;--serif:'Literata',Georgia,serif;--sans:'Manrope',Arial,sans-serif;--mono:'DM Mono',monospace}
+.site-header{background:rgba(248,245,239,.94)}
+.intro{color:#3f4856}.updates-list{scrollbar-color:var(--green) #ebe6dc}.updates-list p,.research-feature>div>p:not(.project-kicker):not(.project-subtitle),.research-feature dd{color:#536071}
+.research-feature,.compact-feature{background:#fffdf9}.research-feature figure,.compact-feature figure{background:#edf0f5}.research-feature-reverse figure,.compact-feature:nth-child(2) figure{background:#e7ebf2}
+.topic-filters button.is-active span{color:#e3e7ee}

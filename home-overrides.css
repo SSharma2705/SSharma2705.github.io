@@ -1,0 +1,23 @@
+/* Home-page refinement: narrative research statement + a more useful news rail. */
+.dossier-wrap{width:min(1260px,calc(100% - 64px));grid-template-columns:minmax(0,1fr) 400px;gap:56px}
+.dossier-content>section{padding-bottom:54px}
+.landing{padding-top:3px!important}
+.landing h1{font-size:clamp(65px,7vw,98px);margin-bottom:26px}
+.intro{max-width:680px;font-size:17px;line-height:1.68}
+.home-doc-link{margin-top:20px;font-size:13px;font-weight:600}
+.research-note{border-top:1px solid var(--line);padding-top:35px!important}
+.research-note-intro{grid-template-columns:minmax(220px,.7fr) minmax(0,1.3fr);gap:48px;align-items:start;margin-bottom:0}
+.research-note-copy{max-width:520px;color:var(--muted);font-size:14px;line-height:1.62}
+.research-note-copy p+p{margin-top:11px}
+.updates-heading{margin-bottom:12px}
+.updates-heading h2{font-size:38px}
+.updates-list{max-height:480px;padding-right:10px}
+.updates-list li{grid-template-columns:76px 25px 1fr;gap:9px;padding:14px 0}
+.updates-list time{font-size:12px;line-height:1.55}
+.updates-list span{font-size:17px}
+.updates-list p{font-size:15px;line-height:1.5}
+.updates-list em{font-size:16px}
+.publication-list h3 a{text-decoration-color:color-mix(in srgb,var(--green) 40%,transparent)}
+.footer-wrap{width:min(1260px,calc(100% - 64px))}
+@media(max-width:920px){.dossier-wrap{width:min(100% - 40px,720px);grid-template-columns:1fr;gap:45px}.updates-list{max-height:340px}.research-note-intro{grid-template-columns:1fr;gap:14px}}
+@media(max-width:560px){.dossier-wrap{width:calc(100% - 32px)}.updates-list{max-height:300px}.research-note{padding-top:30px!important}.home-doc-link{font-size:13px}}
