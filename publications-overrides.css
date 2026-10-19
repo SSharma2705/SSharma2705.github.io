@@ -11,3 +11,6 @@
 
 /* Understated academic refinement */
 .page-heading h1{font-size:clamp(42px,4.5vw,58px);letter-spacing:-.05em}.compact-section-heading .eyebrow{display:none}.compact-section-heading h2{font-size:30px;letter-spacing:-.04em}.work-highlights{padding-top:25px!important}.compact-feature{border:0;border-top:1px solid var(--line);background:transparent}.compact-feature figure{min-height:190px;padding:16px}.compact-feature img{height:160px}.compact-feature>div{padding:17px 2px 20px}.compact-feature .project-kicker{font-family:var(--sans);font-size:12px;letter-spacing:0;text-transform:none;margin-bottom:7px}.compact-feature h3{font-size:25px;letter-spacing:-.04em}
+
+/* Mobile publication layout */
+@media(max-width:640px){.compact-section-heading h2{font-size:28px}.compact-feature-grid{gap:26px}.compact-feature figure{min-height:170px;padding:14px}.compact-feature img{height:145px}.compact-feature>div{padding:15px 0 18px}.compact-feature h3{font-size:24px}.publication-browser .pub-group+.pub-group{margin-top:22px}.publication-browser .publication-list li{padding:12px 0}.publication-browser .publication-list h3{font-size:13px}.publication-browser .publication-list p{font-size:12px}}

@@ -7,3 +7,5 @@
 .research-feature,.compact-feature{background:#fffdf9}.research-feature figure,.compact-feature figure{background:#edf0f5}.research-feature-reverse figure,.compact-feature:nth-child(2) figure{background:#e7ebf2}
 .topic-filters button.is-active span{color:#e3e7ee}
 .wordmark{font-family:var(--serif);font-size:26px;font-weight:600;letter-spacing:-.02em}
+
+@media(max-width:640px){.wordmark{font-size:22px;line-height:1.1}}@media(max-width:380px){.wordmark{font-size:21px}}
