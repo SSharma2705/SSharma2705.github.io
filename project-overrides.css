@@ -17,3 +17,6 @@
 /* Shared small-screen navigation */
 @media(max-width:640px){.nav-wrap{height:auto;min-height:0;flex-direction:column;align-items:flex-start;padding:12px 0 11px;gap:9px}.wordmark{font-size:22px;line-height:1.1}nav{width:100%;justify-content:space-between;gap:7px;font-size:11px;line-height:1.2}.dossier-wrap{width:calc(100% - 32px);padding-top:31px;gap:32px}.page-heading h1{font-size:42px;line-height:1.02}.page-heading .intro{margin-top:16px}.background-page{gap:32px}.background-page h2{font-size:27px;margin-bottom:16px}.background-page li{grid-template-columns:72px 1fr;gap:8px}.dossier-rail{display:block}.portrait-wrap{width:min(78%,275px)}.footer-wrap{width:calc(100% - 32px);flex-direction:column;gap:4px}}
 @media(max-width:380px){nav{font-size:10px;gap:5px}.wordmark{font-size:21px}.dossier-wrap{width:calc(100% - 28px)}}
+
+/* Mobile content order for Publications and Background. */
+@media(max-width:640px){.page-content.dossier-content,.page-content+.dossier-rail{display:contents}.page-content .page-heading{order:1}.page-content+.dossier-rail .portrait-wrap{order:2;margin:2px 0 25px}.page-content+.dossier-rail .rail-links{order:3;margin:0 0 26px}.page-content>section:not(.page-heading){order:4;width:100%}}
