@@ -8,3 +8,6 @@
 .publication-browser{padding-top:5px!important}.publication-browser .pub-group+.pub-group{margin-top:25px}.publication-browser .publication-list li{grid-template-columns:1fr;padding:13px 0}.publication-browser .publication-list h3{font-size:14px}.publication-browser .publication-list p{font-size:12px}
 @media(max-width:700px){.compact-feature-grid{grid-template-columns:1fr}.compact-feature figure{min-height:240px}.compact-feature h3{font-size:29px}}
 @media(max-width:430px){.compact-feature figure{min-height:195px;padding:17px}.compact-feature img{height:160px}.compact-feature>div{padding:20px}.compact-feature h3{font-size:27px}}
+
+/* Understated academic refinement */
+.page-heading h1{font-size:clamp(42px,4.5vw,58px);letter-spacing:-.05em}.compact-section-heading .eyebrow{display:none}.compact-section-heading h2{font-size:30px;letter-spacing:-.04em}.work-highlights{padding-top:25px!important}.compact-feature{border:0;border-top:1px solid var(--line);background:transparent}.compact-feature figure{min-height:190px;padding:16px}.compact-feature img{height:160px}.compact-feature>div{padding:17px 2px 20px}.compact-feature .project-kicker{font-family:var(--sans);font-size:12px;letter-spacing:0;text-transform:none;margin-bottom:7px}.compact-feature h3{font-size:25px;letter-spacing:-.04em}

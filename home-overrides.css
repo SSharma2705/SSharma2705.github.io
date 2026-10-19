@@ -22,3 +22,6 @@
 .footer-wrap{width:min(1260px,calc(100% - 64px))}
 @media(max-width:920px){.dossier-wrap{width:min(100% - 40px,720px);grid-template-columns:1fr;gap:45px}.research-note-intro{grid-template-columns:1fr;gap:14px}}
 @media(max-width:560px){.dossier-wrap{width:calc(100% - 32px)}.research-note{padding-top:30px!important}.home-doc-link{font-size:13px}}
+
+/* Understated academic refinement */
+.landing h1{font-size:clamp(50px,5.5vw,74px);margin-bottom:19px;letter-spacing:-.06em}.dossier-content>section{padding-bottom:38px}.research-note{padding-top:25px!important}.research-note-intro{grid-template-columns:minmax(190px,.65fr) minmax(0,1.35fr);gap:38px}.research-note-intro h2,.home-publications h2{font-size:30px;letter-spacing:-.04em}.research-note-copy{font-size:15px;line-height:1.6}.section-intro{margin-bottom:20px}.updates-heading h2{font-size:27px}
