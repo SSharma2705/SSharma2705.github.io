@@ -9,3 +9,5 @@
 .wordmark{font-family:var(--serif);font-size:26px;font-weight:600;letter-spacing:-.02em}
 
 @media(max-width:640px){.wordmark{font-size:22px;line-height:1.1}}@media(max-width:380px){.wordmark{font-size:21px}}
+.publication-list time,.pub-group-label,.background-page span{font-size:13px}
+.publication-list p,.publication-browser .publication-list p,.background-page p,.compact-feature div>p:not(.project-kicker){font-size:14px;line-height:1.55}
