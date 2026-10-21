@@ -20,3 +20,11 @@
 
 /* Mobile content order for Publications and Background. */
 @media(max-width:640px){.page-content.dossier-content,.page-content+.dossier-rail{display:contents}.page-content .page-heading{order:1}.page-content+.dossier-rail .portrait-wrap{order:2;margin:2px 0 25px}.page-content+.dossier-rail .rail-links{order:3;margin:0 0 26px}.page-content>section:not(.page-heading){order:4;width:100%}}
+
+
+/* Quiet motion that makes browsing feel tactile rather than theatrical. */
+@view-transition{navigation:auto}.site-progress{position:fixed;z-index:20;top:0;left:0;width:100%;height:3px;background:var(--green);transform:scaleX(0);transform-origin:left;pointer-events:none}.motion-ready [data-reveal]{opacity:0;transform:translateY(14px);transition:opacity .5s ease,transform .5s cubic-bezier(.2,.7,.3,1)}.motion-ready [data-reveal].is-visible{opacity:1;transform:none}.publication-browser .pub-group{scroll-margin-top:104px;transition:background .22s ease,transform .22s ease}.publication-browser .pub-group:hover{background:color-mix(in srgb,var(--lime) 15%,transparent);transform:translateX(4px)}.publication-browser .publication-list li{transition:padding-left .2s ease,background .2s ease}.publication-browser .publication-list li:hover{padding-left:8px;background:color-mix(in srgb,var(--lime) 18%,transparent)}.portrait-wrap,.compact-feature{transition:transform .28s cubic-bezier(.2,.7,.3,1),box-shadow .28s ease;will-change:transform}.is-tilting{box-shadow:0 12px 28px rgba(31,51,88,.12)}@media(prefers-reduced-motion:reduce){.site-progress{display:none}.publication-browser .pub-group,.publication-browser .publication-list li,.portrait-wrap,.compact-feature{transition:none!important;transform:none!important}}
+/* Publication metadata must remain legible at a glance. */
+.project-kicker,.pub-group-label,.home-publications .publication-list time{font-size:12px}
+.home-publications .publication-list p{font-size:12px}
+.background-page span{font-size:12px}
