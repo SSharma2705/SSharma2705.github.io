@@ -28,3 +28,5 @@
 .project-kicker,.pub-group-label,.home-publications .publication-list time{font-size:12px}
 .home-publications .publication-list p{font-size:12px}
 .background-page span{font-size:12px}
+.home-publications .publication-list li{transition:padding-left .2s ease,background .2s ease}.home-publications .publication-list li:hover{padding-left:8px;background:color-mix(in srgb,var(--lime) 18%,transparent)}
+@media(prefers-reduced-motion:reduce){.home-publications .publication-list li{transition:none}}
