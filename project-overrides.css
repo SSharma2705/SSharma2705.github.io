@@ -30,3 +30,7 @@
 .background-page span{font-size:12px}
 .home-publications .publication-list li{transition:padding-left .2s ease,background .2s ease}.home-publications .publication-list li:hover{padding-left:8px;background:color-mix(in srgb,var(--lime) 18%,transparent)}
 @media(prefers-reduced-motion:reduce){.home-publications .publication-list li{transition:none}}
+
+/* Home contact links remain immediately reachable on small screens. */
+.home-mobile-links{display:none}
+@media(max-width:640px){.home-mobile-links{display:flex;flex-wrap:wrap;gap:9px 16px;margin:18px 0 17px;font-size:13px;font-weight:600}.home-desktop-links{display:none}}
