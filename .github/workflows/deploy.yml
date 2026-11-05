@@ -24,6 +24,9 @@ jobs:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
+      - name: Build research journal
+        run: python3 scripts/build-reading-notes.py
+
       - name: Prepare static site
         run: rsync -a --exclude='.git' --exclude='.github' ./ _site/
 
