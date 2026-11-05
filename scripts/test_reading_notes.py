@@ -84,20 +84,18 @@ class JournalTests(unittest.TestCase):
         self.assertIn('&lt;script&gt;', html)
         self.assertNotIn('href=', journal.inline_markdown('[unsafe](javascript:alert)'))
 
-    def test_multiple_days_homepage_and_removing_an_entry(self):
+    def test_multiple_days_navigation_and_removing_an_entry(self):
         older = self.entry('## [Older](https://example.com/old)\n- Old note', '2026-11-05.md')
         newer = self.entry('# New day\n## [Newer](https://example.com/new)\n- New note')
         home = self.root / 'index.html'
-        home.write_text('keep before <!-- research-journal-latest:start -->old<!-- research-journal-latest:end --> keep after')
+        home.write_text('My introduction links to the research journal.')
         self.build()
         out = self.root / 'reading-notes'
         index = (out / 'index.html').read_text()
         self.assertLess(index.index('id="day-2026-11-06"'), index.index('id="day-2026-11-05"'))
         self.assertIn('2026-11-05.html">← Older entry', (out / '2026-11-06.html').read_text())
         self.assertIn('2026-11-06.html">Newer entry', (out / '2026-11-05.html').read_text())
-        self.assertIn('New day →', home.read_text())
-        self.assertIn('keep before', home.read_text())
-        self.assertIn('keep after', home.read_text())
+        self.assertEqual(home.read_text(), 'My introduction links to the research journal.')
         first_build = {p.name: p.read_text() for p in out.glob('*.html')}
         self.build()
         self.assertEqual(first_build, {p.name: p.read_text() for p in out.glob('*.html')})
@@ -106,7 +104,7 @@ class JournalTests(unittest.TestCase):
         self.build()
         self.assertFalse((out / '2026-11-06.html').exists())
         self.assertTrue((out / '2020-01-01.html').exists())
-        self.assertIn('2026-11-05.html', home.read_text())
+        self.assertEqual(home.read_text(), 'My introduction links to the research journal.')
 
     def test_invalid_entry_cannot_partially_overwrite_pages(self):
         self.entry('## [A](https://example.com)\n- Note', '2026-11-05.md')
@@ -118,12 +116,14 @@ class JournalTests(unittest.TestCase):
             self.build()
         self.assertEqual(output.read_text(), previous)
 
-    def test_bad_homepage_markers_fail_before_any_writes(self):
+    def test_homepage_is_untouched_when_new_entries_are_built(self):
         self.entry('## [A](https://example.com)\n- Note')
-        (self.root / 'index.html').write_text('missing markers')
-        with self.assertRaisesRegex(ValueError, 'marker pair'):
-            self.build()
-        self.assertFalse((self.root / 'reading-notes' / 'index.html').exists())
+        home = self.root / 'index.html'
+        original = '<p>My introduction and <a href="reading-notes/index.html">research journal</a>.</p>'
+        home.write_text(original)
+        self.build()
+        self.assertEqual(home.read_text(), original)
+        self.assertTrue((self.root / 'reading-notes' / 'index.html').exists())
 
 
 if __name__ == '__main__':

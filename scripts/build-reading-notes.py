@@ -224,23 +224,6 @@ def build(root=ROOT):
     out = root / 'reading-notes'
     outputs = {out / 'index.html': page(days)}
     outputs.update({out / f'{day["date"]}.html': page(days, day) for day in days})
-    homepage = root / 'index.html'
-    if homepage.exists():
-        content = homepage.read_text(encoding='utf-8')
-        start = '<!-- research-journal-latest:start -->'
-        end = '<!-- research-journal-latest:end -->'
-        if content.count(start) != 1 or content.count(end) != 1 or content.index(start) >= content.index(end):
-            raise ValueError('Homepage must contain one research-journal-latest:start/end marker pair.')
-        latest = days[0]
-        excerpt = '; '.join(n['title'] for n in latest['notes'][:2])
-        if len(latest['notes']) > 2:
-            excerpt += f'; and {len(latest["notes"]) - 2} more.'
-        preview = f'''{start}
-        <time datetime="{latest['date']}">{long_date(latest['date'])} · {len(latest['notes'])} reads</time>
-        <h3><a href="reading-notes/{latest['date']}.html">{e(latest.get('title', 'Read the latest entry'))} →</a></h3>
-        <p>{e(excerpt)}</p>
-        {end}'''
-        outputs[homepage] = content[:content.index(start)] + preview + content[content.index(end) + len(end):]
     for path, content in outputs.items():
         path.write_text(content, encoding='utf-8')
     # Only remove old pages carrying this builder's marker; preserve hand-authored files.
